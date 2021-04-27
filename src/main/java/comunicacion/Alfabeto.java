@@ -28,6 +28,9 @@ public class Alfabeto extends Pictograma{
 		return interpretacion;
 	}
 	
+	public int cantidadLetras() {
+		return letras.length;
+	}
 	
 	public String toString() {
 	
