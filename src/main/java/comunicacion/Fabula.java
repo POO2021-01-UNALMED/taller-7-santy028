@@ -32,7 +32,7 @@ public class Fabula extends Escrito{
 		return interpretacion;
 	}
 	
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		return super.getPaginas()*palabrasPagina;
 		
 	}
